@@ -1,0 +1,84 @@
+<!-- index.html -->
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content= 
+        "width=device-width, initial-scale=1.0"> 
+    <title>Pagination Example</title> 
+    <link rel="stylesheet" href="style.css"> 
+    
+</head> 
+
+<body> 
+    <div id="data-container"> 
+        <h1>Tourist Attractions In India</h1> 
+        <div class="card-container"> 
+            <div class="card"> 
+                <img src="./images/1.jpeg" alt="Taj Mahal, Agra"> 
+                <h3>Taj Mahal, Agra </h3> 
+                <p>Majestically located on the banks of Yamuna River, this wonder of the world was built by the Mughal Emperor Shah Jahan as a memorial for his beloved wife Mumtaz Mahal.</p> 
+            </div> 
+            <div class="card"> 
+                <img src="./images/11.jpeg" alt="Mehrangarh Fort, Jodhpur"> 
+                <h3>Mehrangarh Fort, Jodhpur</h3> 
+                <p>Built by the Rathore clan of Jodhpur in 1460, the well-preserved Mehrangarh Fort towers above 400 feet, overlooking the city.</p> 
+            </div> 
+            <div class="card"> 
+                <img src="./images/3.jpeg" alt="Golden Temple, Amritsar"> 
+                <h3>Golden Temple, Amritsar</h3> 
+                <p>Also known as Sri Harmandir Sahib, Golden Temple is considered to be the most important pilgrimage site amongst Sikhs and will leave you in awe with its jaw-dropping gold and marble edifice.</p> 
+            </div> 
+            <div class="card"> 
+                <img src="./images/12.jpeg" alt="Meenakshi Temple, Madurai"> 
+                <h3>Meenakshi Temple, Madurai</h3> 
+                <p>Set on the banks of the Vaigai River, Meenakshi Temple is dedicated to Goddess Parvati and Lord Shiva. It is widely recognised for its architecture and 14-coloured multi-tiered gopuram.</p> 
+            </div> 
+            <div class="card"> 
+                <img src="./images/5.jpeg" alt="Hawa Mahal, Jaipur"> 
+                <h3>Hawa Mahal, Jaipur</h3> 
+                <p>Also called as 'The Palace of Winds', the honeycomb-shaped palace features 953 jharokha-style windows and was built by Maharaja Sawai Pratap Singh to allow the court ladies to enjoy the city processions.</p> 
+            </div> 
+            <div class="card"> 
+                <img src="./images/6.jpeg" alt="Humayun's Tomb, Delhi"> 
+                <h3>Humayun's Tomb, Delhi</h3> 
+                <p>The royal mausoleum of Mughal Emperor Humayun, this structure was sanctioned by his widow Hamida Baga Begum and designed by Persian architect Mirak Mirza Ghiyas. It was completed between 1565 and 1572.</p> 
+            </div> 
+            <div class="card"> 
+                <img src="./images/7.jpeg" alt="Qutab Minar, Delhi"> 
+                <h3>Qutab Minar, Delhi</h3> 
+                <p>Towering 73 metres high above the greens in Mehrauli, construction for this five-storey minaret was started by Qutb ud Din Aibak, founder of Delhi Sultanate. It is renowned for the artistic brick-work on its pillars and arches.</p> 
+            </div> 
+            <div class="card"> 
+                <img src="./images/8.jpeg" alt="Mysore Palace, Mysore"> 
+                <h3>Mysore Palace, Mysore</h3> 
+                <p>The official residence of the erstwhile royal family of Mysore, Mysore Palace is an architectural masterpiece showcasing a blend of Hindu, Muslim, Rajput and Gothic styles.</p> 
+            </div> 
+            <div class="card"> 
+                <img src="./images/9.jpeg" alt="Aguada Fort, Goa"> 
+                <h3>Aguada Fort, Goa</h3> 
+                <p>The fort overlooks the confluence of Mandovi River and the Arabian Sea. This beautiful red-brown fort houses the Central Jail and a 19th century lighthouse.</p> 
+            </div> 
+            <div class="card"> 
+                <img src="./images/13.jpeg" alt="Kamakhya Devi Temple, Parwanoo"> 
+                <h3>Kamakhya Devi Temple, Parwanoo</h3> 
+                <p>Located atop a hill in Parwanoo, this temple is dedicated to Kamakhya Devi, a Hindu tantric goddess belonging to the Shakti traditions. It is one of the 51 Shakti peeths in India.</p> 
+            </div> 
+            <!-- Add more cards as needed -->
+        </div> 
+    </div> 
+
+    <div class="pagination" id="pagination"> 
+        <a href="#" id="prev">Previous</a> 
+        <a href="#" class="page-link" data-page="1">1</a> 
+        <a href="#" class="page-link" data-page="2">2</a> 
+        <a href="#" class="page-link" data-page="3">3</a> 
+        <a href="#" id="next">Next</a> 
+        <p id="page-numbers"> </p> 
+    </div> 
+
+    <script src="script.js"> </script> 
+</body> 
+
+</html>
